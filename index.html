@@ -4,7 +4,7 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 s1.async=true;
-s1.src='https://embed.tawk.to/6ac6347bdf050334d4dcc25e/1k4b3q13a';
+s1.src='https://embed.tawk.to/6acce2d25d5f3734c56d5143/1k4o5c1tl';
 s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
@@ -16,18 +16,18 @@ s0.parentNode.insertBefore(s1,s0);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sellrecipeonme | Authentic Japanese Food Recipes & HD Videos</title>
+    <title>sopbyme | Contemporary Unisex Apparel & Style Videos</title>
     <style>
         :root {
-            --primary: #dc2626;         /* Vibrant Red */
-            --primary-dark: #991b1b;    /* Deep Crimson/Dark Red */
-            --primary-light: #fca5a5;   /* Soft Red/Pinkish Accent */
-            --primary-bg: #fef2f2;      /* Light Soft Warm Red Background */
-            --secondary: #111827;       /* Dark Charcoal Accent */
+            --primary: #eab308;         /* Vibrant Yellow */
+            --primary-dark: #ca8a04;    /* Deep Gold */
+            --primary-light: #fef08a;   /* Soft Light Yellow */
+            --primary-bg: #fefce8;      /* Creamy Yellow Background */
+            --secondary: #18181b;       /* Dark Charcoal Accent */
             --card-bg: #ffffff;
-            --text-dark: #1f2937;
-            --text-muted: #4b5563;
-            --border: #f87171;          /* Red Border Accent */
+            --text-dark: #27272a;
+            --text-muted: #52525b;
+            --border: #fde047;          /* Bright Yellow Border */
         }
 
         * {
@@ -51,7 +51,7 @@ s0.parentNode.insertBefore(s1,s0);
             position: sticky;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
         }
 
         .nav-container {
@@ -94,13 +94,13 @@ s0.parentNode.insertBefore(s1,s0);
         }
 
         nav a:hover {
-            color: var(--primary-light);
+            color: var(--secondary);
         }
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(153, 27, 27, 0.88), rgba(17, 24, 39, 0.85)), 
-                        url('https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+            background: linear-gradient(rgba(202, 138, 4, 0.85), rgba(24, 24, 27, 0.85)), 
+                        url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
             color: #ffffff;
             padding: 9rem 2rem;
             text-align: center;
@@ -116,7 +116,7 @@ s0.parentNode.insertBefore(s1,s0);
             font-weight: 900;
             line-height: 1.15;
             margin-bottom: 1.2rem;
-            text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+            text-shadow: 0 2px 10px rgba(0,0,0,0.4);
         }
 
         .hero p {
@@ -128,26 +128,26 @@ s0.parentNode.insertBefore(s1,s0);
         .cta-btn {
             display: inline-block;
             background-color: var(--primary);
-            color: #ffffff;
+            color: var(--secondary);
             padding: 1.2rem 3rem;
             border-radius: 50px;
             font-weight: 800;
             font-size: 1.15rem;
             text-decoration: none;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 20px rgba(220, 38, 38, 0.5);
-            border: 2px solid #ef4444;
+            box-shadow: 0 4px 20px rgba(234, 179, 8, 0.5);
+            border: 2px solid #facc15;
         }
 
         .cta-btn:hover {
-            background-color: #ef4444;
+            background-color: var(--primary-light);
             transform: translateY(-3px);
-            box-shadow: 0 6px 25px rgba(220, 38, 38, 0.7);
+            box-shadow: 0 6px 25px rgba(234, 179, 8, 0.7);
         }
 
         /* Features Bar */
         .features-bar {
-            background-color: #fee2e2;
+            background-color: var(--primary-light);
             border-bottom: 2px solid var(--border);
             padding: 2.5rem 2rem;
         }
@@ -196,13 +196,13 @@ s0.parentNode.insertBefore(s1,s0);
         }
 
         /* Catalog Grid */
-        .recipe-grid {
+        .dress-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2.5rem;
         }
 
-        .recipe-card {
+        .dress-card {
             background-color: var(--card-bg);
             border: 2px solid var(--border);
             border-radius: 16px;
@@ -210,16 +210,16 @@ s0.parentNode.insertBefore(s1,s0);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             display: flex;
             flex-direction: column;
-            box-shadow: 0 4px 12px rgba(153, 27, 27, 0.1);
+            box-shadow: 0 4px 12px rgba(202, 138, 4, 0.1);
         }
 
-        .recipe-card:hover {
+        .dress-card:hover {
             transform: translateY(-8px);
-            box-shadow: 0 15px 30px rgba(153, 27, 27, 0.25);
+            box-shadow: 0 15px 30px rgba(202, 138, 4, 0.25);
         }
 
-        .recipe-img {
-            height: 230px;
+        .dress-img {
+            height: 280px;
             background-size: cover;
             background-position: center;
         }
@@ -231,9 +231,9 @@ s0.parentNode.insertBefore(s1,s0);
             flex-direction: column;
         }
 
-        .recipe-tag {
+        .dress-tag {
             align-self: flex-start;
-            background-color: #fee2e2;
+            background-color: var(--primary-light);
             color: var(--primary-dark);
             font-size: 0.8rem;
             font-weight: 800;
@@ -243,13 +243,13 @@ s0.parentNode.insertBefore(s1,s0);
             margin-bottom: 0.8rem;
         }
 
-        .recipe-card h3 {
+        .dress-card h3 {
             font-size: 1.35rem;
             color: var(--secondary);
             margin-bottom: 0.6rem;
         }
 
-        .recipe-card p {
+        .dress-card p {
             color: var(--text-muted);
             font-size: 0.95rem;
             margin-bottom: 1.5rem;
@@ -261,7 +261,7 @@ s0.parentNode.insertBefore(s1,s0);
             justify-content: space-between;
             align-items: center;
             padding-top: 1.2rem;
-            border-top: 1px solid #fee2e2;
+            border-top: 1px solid var(--primary-light);
         }
 
         .price {
@@ -272,7 +272,7 @@ s0.parentNode.insertBefore(s1,s0);
 
         .buy-btn {
             background-color: var(--primary);
-            color: #ffffff;
+            color: var(--secondary);
             padding: 0.75rem 1.5rem;
             border-radius: 8px;
             font-weight: 800;
@@ -283,6 +283,7 @@ s0.parentNode.insertBefore(s1,s0);
 
         .buy-btn:hover {
             background-color: var(--primary-dark);
+            color: #ffffff;
         }
 
         /* 15 Videos Section */
@@ -302,7 +303,7 @@ s0.parentNode.insertBefore(s1,s0);
 
         .video-wrapper video {
             width: 100%;
-            height: 190px;
+            height: 220px;
             object-fit: cover;
             background-color: #000;
         }
@@ -324,7 +325,7 @@ s0.parentNode.insertBefore(s1,s0);
 
         /* 150 Reviews Scrollable Container */
         .reviews-section {
-            background-color: #fee2e2;
+            background-color: var(--primary-light);
             padding: 6rem 2rem;
             border-top: 1px solid var(--border);
             border-bottom: 1px solid var(--border);
@@ -384,7 +385,7 @@ s0.parentNode.insertBefore(s1,s0);
         }
 
         .stars {
-            color: var(--primary);
+            color: var(--primary-dark);
             font-size: 0.8rem;
         }
 
@@ -421,7 +422,7 @@ s0.parentNode.insertBefore(s1,s0);
             border-radius: 16px;
             padding: 3rem;
             margin-top: 1.5rem;
-            box-shadow: 0 4px 12px rgba(153, 27, 27, 0.05);
+            box-shadow: 0 4px 12px rgba(202, 138, 4, 0.05);
         }
 
         .legal-block h3 {
@@ -461,7 +462,7 @@ s0.parentNode.insertBefore(s1,s0);
         }
 
         .footer-col h4 {
-            color: var(--primary-light);
+            color: var(--primary);
             font-size: 1.15rem;
             margin-bottom: 1.2rem;
         }
@@ -481,17 +482,17 @@ s0.parentNode.insertBefore(s1,s0);
         }
 
         .footer-col a:hover {
-            color: var(--primary-light);
+            color: var(--primary);
         }
 
         .footer-bottom {
             max-width: 1280px;
             margin: 0 auto;
             padding-top: 2rem;
-            border-top: 1px solid #374151;
+            border-top: 1px solid #3f3f46;
             text-align: center;
             font-size: 0.85rem;
-            color: #9ca3af;
+            color: #a1a1aa;
         }
     </style>
 </head>
@@ -500,11 +501,11 @@ s0.parentNode.insertBefore(s1,s0);
     <!-- Header Navigation -->
     <header>
         <div class="nav-container">
-            <a href="#" class="logo">sellrecipe<span>onme</span></a>
+            <a href="#" class="logo">sop<span>byme</span></a>
             <nav>
                 <ul>
-                    <li><a href="#catalog">Japanese Recipes</a></li>
-                    <li><a href="#videos">15 Cooking Videos</a></li>
+                    <li><a href="#catalog">Unisex Collection</a></li>
+                    <li><a href="#videos">15 Styling Videos</a></li>
                     <li><a href="#reviews">150 Reviews</a></li>
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#privacy">Privacy Policy</a></li>
@@ -517,9 +518,9 @@ s0.parentNode.insertBefore(s1,s0);
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Master Authentic Japanese Cuisine at Home</h1>
-            <p>Unlock chef-crafted Japanese recipe guides, precision dashi ratios, and 15 short HD video masterclasses on sellrecipeonme.</p>
-            <a href="#catalog" class="cta-btn">Explore Japanese Recipes</a>
+            <h1>Contemporary Unisex Apparel & Fluid Style</h1>
+            <p>Explore boundary-pushing unisex dresses, gender-neutral tailoring, premium fabrics, and 15 curated dressing style guides on sopbyme.</p>
+            <a href="#catalog" class="cta-btn">Shop Unisex Collection</a>
         </div>
     </section>
 
@@ -527,257 +528,257 @@ s0.parentNode.insertBefore(s1,s0);
     <div class="features-bar">
         <div class="features-grid">
             <div class="feature-item">
-                <h3>Instant Digital Download</h3>
-                <p>Receive print-ready PDF recipe cards directly after purchase.</p>
+                <h3>Fluid Inclusive Sizing</h3>
+                <p>Designed with relaxed cuts and versatile tailoring that fits every body seamlessly.</p>
             </div>
             <div class="feature-item">
-                <h3>Authentic Taste Guarantee</h3>
-                <p>Tested step-by-step ratio instructions using traditional Washoku culinary techniques.</p>
+                <h3>Sustainable Fabrics</h3>
+                <p>Crafted from organic cotton, breathable linen blends, and premium eco-friendly weaves.</p>
             </div>
             <div class="feature-item">
-                <h3>15 HD Video Tutorials</h3>
-                <p>Watch short video clips to master knife techniques, sushi rolling, and broth reductions.</p>
+                <h3>15 Dressing Video Guides</h3>
+                <p>Watch short HD clips showing multi-way styling, layering, and accessory pairing.</p>
             </div>
         </div>
     </div>
 
-    <!-- Recipe Catalog Section -->
+    <!-- Catalog Section -->
     <section id="catalog" class="section">
         <div class="section-header">
-            <h2>Popular Japanese Recipe Guides</h2>
-            <p>Step-by-step digital cookbooks with HD imagery and precise measurement standards.</p>
+            <h2>Featured Unisex Dresses & Outfits</h2>
+            <p>High-definition lookbooks featuring versatile, gender-neutral silhouettes.</p>
         </div>
 
-        <div class="recipe-grid">
+        <div class="dress-grid">
             <!-- Card 1 -->
-            <div class="recipe-card">
-                <div class="recipe-img" style="background-image: url('https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=800&q=80');"></div>
+            <div class="dress-card">
+                <div class="dress-img" style="background-image: url('https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80');"></div>
                 <div class="card-body">
-                    <span class="recipe-tag">Ramen Classic</span>
-                    <h3>Rich Tonkotsu Pork Ramen</h3>
-                    <p>Master slow-simmered pork bone broth, soft-boiled ajitsuke tamago eggs, and handmade springy noodles.</p>
+                    <span class="dress-tag">Oversized Silhouette</span>
+                    <h3>Minimalist Linen Overshirt Dress</h3>
+                    <p>A breathable, button-down fluid tunic dress featuring dropped shoulders and deep utility side pockets.</p>
                     <div class="card-footer">
-                        <div class="price">$4.99</div>
-                        <a href="#catalog" onclick="alert('Added Tonkotsu Ramen guide to sellrecipeonme!'); return false;" class="buy-btn">Buy Recipe</a>
+                        <div class="price">$89.00</div>
+                        <a href="#catalog" onclick="alert('Added Linen Overshirt Dress to sopbyme cart!'); return false;" class="buy-btn">Add to Bag</a>
                     </div>
                 </div>
             </div>
 
             <!-- Card 2 -->
-            <div class="recipe-card">
-                <div class="recipe-img" style="background-image: url('https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=80');"></div>
+            <div class="dress-card">
+                <div class="dress-img" style="background-image: url('https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=80');"></div>
                 <div class="card-body">
-                    <span class="recipe-tag">Sushi Masterclass</span>
-                    <h3>Artisanal Nigiri & Maki Rolls</h3>
-                    <p>Learn seasoned sushi rice (Shari) preparation, raw fish slicing precision, and tight roll formatting.</p>
+                    <span class="dress-tag">Avant-Garde Drape</span>
+                    <h3>Asymmetric Cotton Wrap Robe</h3>
+                    <p>An architectural wrap dress with adjustable waist tie styling, built for effortless movement and gender-fluid layering.</p>
                     <div class="card-footer">
-                        <div class="price">$3.99</div>
-                        <a href="#catalog" onclick="alert('Added Sushi Roll guide to sellrecipeonme!'); return false;" class="buy-btn">Buy Recipe</a>
+                        <div class="price">$115.00</div>
+                        <a href="#catalog" onclick="alert('Added Asymmetric Cotton Wrap Robe to sopbyme cart!'); return false;" class="buy-btn">Add to Bag</a>
                     </div>
                 </div>
             </div>
 
             <!-- Card 3 -->
-            <div class="recipe-card">
-                <div class="recipe-img" style="background-image: url('https://images.unsplash.com/photo-1514944288352-fffac99f0bdf?auto=format&fit=crop&w=800&q=80');"></div>
+            <div class="dress-card">
+                <div class="dress-img" style="background-image: url('https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80');"></div>
                 <div class="card-body">
-                    <span class="recipe-tag">Comfort Food</span>
-                    <h3>Crispy Chicken Katsu Curry</h3>
-                    <p>Panko-crusted chicken cutlet served over fragrant rice with a deeply savory Japanese caramelized curry glaze.</p>
+                    <span class="dress-tag">Streetwear Essential</span>
+                    <h3>Boxy Heavyweight Utility Midi</h3>
+                    <p>Structured cotton twill dress featuring a boxy straight cut, contrast stitching, and modular hardware detailing.</p>
                     <div class="card-footer">
-                        <div class="price">$4.49</div>
-                        <a href="#catalog" onclick="alert('Added Chicken Katsu Curry guide to sellrecipeonme!'); return false;" class="buy-btn">Buy Recipe</a>
+                        <div class="price">$125.00</div>
+                        <a href="#catalog" onclick="alert('Added Boxy Heavyweight Utility Midi to sopbyme cart!'); return false;" class="buy-btn">Add to Bag</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 15 Video Section -->
+    <!-- 15 Dressing Videos Section -->
     <section id="videos" class="section">
         <div class="section-header">
-            <h2>15 Short Japanese Cooking Videos</h2>
-            <p>Bite-sized HD video techniques included with sellrecipeonme digital recipe bundles.</p>
+            <h2>15 Short Dressing & Styling Videos</h2>
+            <p>Bite-sized HD styling clips showing how to adapt unisex silhouettes for any wardrobe.</p>
         </div>
 
         <div class="video-grid">
             <div class="video-card">
                 <div class="video-wrapper">
-                    <video controls poster="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=500&q=80">
+                    <video controls poster="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=500&q=80">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="video-info">
-                    <h4>1. Crafting Dashi Stock</h4>
-                    <p>Extracting umami from kombu and bonito flakes.</p>
+                    <h4>1. Styling Oversized Tunics</h4>
+                    <p>Belted vs. loose drape styling techniques.</p>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-wrapper">
-                    <video controls poster="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=500&q=80">
+                    <video controls poster="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=500&q=80">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="video-info">
-                    <h4>2. Perfect Sushi Rice (Shari)</h4>
-                    <p>Washing, steaming, and rice vinegar seasoning.</p>
+                    <h4>2. Layering Over Pants</h4>
+                    <p>Pairing midi shirt dresses with wide trousers.</p>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-wrapper">
-                    <video controls poster="https://images.unsplash.com/photo-1514944288352-fffac99f0bdf?auto=format&fit=crop&w=500&q=80">
+                    <video controls poster="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=500&q=80">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="video-info">
-                    <h4>3. Panko Chicken Searing</h4>
-                    <p>Crispy golden coating for Japanese Katsu.</p>
+                    <h4>3. Monochrome Minimalist Look</h4>
+                    <p>Creating depth with tonal neutral garments.</p>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-wrapper">
-                    <video controls poster="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=500&q=80">
+                    <video controls poster="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=500&q=80">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="video-info">
-                    <h4>4. Nigiri Fish Slicing</h4>
-                    <p>Single-stroke knife angles for raw fish.</p>
+                    <h4>4. Accessorizing Fluid Fits</h4>
+                    <p>Using harnesses and belts to modify shape.</p>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-wrapper">
-                    <video controls poster="https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?auto=format&fit=crop&w=500&q=80">
+                    <video controls poster="https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=500&q=80">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="video-info">
-                    <h4>5. Teriyaki Glaze Reduction</h4>
-                    <p>Balancing mirin, soy sauce, and sake.</p>
+                    <h4>5. Transitioning Day to Night</h4>
+                    <p>Swapping footwear and adding outerwear layers.</p>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-wrapper">
-                    <video controls poster="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=500&q=80">
+                    <video controls poster="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=500&q=80">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="video-info">
-                    <h4>6. Tempura Batter Whisking</h4>
-                    <p>Ice-cold batter for light crispy shrimp.</p>
+                    <h4>6. Asymmetric Wrap Tricks</h4>
+                    <p>Three ways to tie and knot front drapes.</p>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-wrapper">
-                    <video controls poster="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=500&q=80">
+                    <video controls poster="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=500&q=80">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="video-info">
-                    <h4>7. Tamagoyaki Omelet Rolling</h4>
-                    <p>Layering thin egg sheets in rectangular pan.</p>
+                    <h4>7. Gender-Neutral Tailoring</h4>
+                    <p>Understanding shoulder drop and chest ease.</p>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-wrapper">
-                    <video controls poster="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=500&q=80">
+                    <video controls poster="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=500&q=80">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="video-info">
-                    <h4>8. Gyoza Pleating Method</h4>
-                    <p>Crispy bottom pan-fry dumpling technique.</p>
+                    <h4>8. Summer Linen Care</h4>
+                    <p>Keeping lightweight fabrics crisp and fresh.</p>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-wrapper">
-                    <video controls poster="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=500&q=80">
+                    <video controls poster="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=500&q=80">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="video-info">
-                    <h4>9. Yakitori Skewer Grilling</h4>
-                    <p>Basting tare sauce over open flame.</p>
+                    <h4>9. Utility Pocket Styling</h4>
+                    <p>Balancing cargo details with clean lines.</p>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-wrapper">
-                    <video controls poster="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500&q=80">
+                    <video controls poster="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=500&q=80">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="video-info">
-                    <h4>10. Okonomiyaki Batter Mix</h4>
-                    <p>Japanese savory cabbage pancake assembly.</p>
+                    <h4>10. Layering Heavy Twill</h4>
+                    <p>Styling structured cotton in cooler weather.</p>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-wrapper">
-                    <video controls poster="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=500&q=80">
+                    <video controls poster="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=500&q=80">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="video-info">
-                    <h4>11. Miso Soup Emulsification</h4>
-                    <p>Dissolving miso paste without boiling away flavor.</p>
+                    <h4>11. Footwear Pairings</h4>
+                    <p>Matching dresses with chunky boots vs. sneakers.</p>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-wrapper">
-                    <video controls poster="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80">
+                    <video controls poster="https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=500&q=80">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="video-info">
-                    <h4>12. Chashu Pork Belly Braise</h4>
-                    <p>Tying and simmering pork for ramen topping.</p>
+                    <h4>12. Minimalist Capsule Wardrobe</h4>
+                    <p>Building 5 outfits with 2 unisex dresses.</p>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-wrapper">
-                    <video controls poster="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=500&q=80">
+                    <video controls poster="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=500&q=80">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="video-info">
-                    <h4>13. Onigiri Rice Shaping</h4>
-                    <p>Forming triangle rice balls filled with plum or salmon.</p>
+                    <h4>13. Collar & Neckline Adjustments</h4>
+                    <p>How to fold collars for relaxed modern looks.</p>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-wrapper">
-                    <video controls poster="https://images.unsplash.com/photo-1583032015879-e5022cb87c3b?auto=format&fit=crop&w=500&q=80">
+                    <video controls poster="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=500&q=80">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="video-info">
-                    <h4>14. Matcha Green Tea Whisking</h4>
-                    <p>Creating smooth micro-foam with bamboo whisk.</p>
+                    <h4>14. Proportions & Volume</h4>
+                    <p>Balancing oversized silhouettes cleanly.</p>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-wrapper">
-                    <video controls poster="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=500&q=80">
+                    <video controls poster="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=500&q=80">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="video-info">
-                    <h4>15. Sukiyaki Beef Simmer</h4>
-                    <p>Sweet soy broth table cooking technique.</p>
+                    <h4>15. Travel Packing Tips</h4>
+                    <p>Rolling linen and twill dresses to prevent creases.</p>
                 </div>
             </div>
         </div>
@@ -787,23 +788,22 @@ s0.parentNode.insertBefore(s1,s0);
     <section id="reviews" class="reviews-section">
         <div class="section-header">
             <h2>150 Verified Customer Reviews</h2>
-            <p>Scroll down to see real feedback from home chefs mastering Japanese cuisine with sellrecipeonme.</p>
+            <p>Scroll down to see real feedback from customers wearing sopbyme apparel.</p>
         </div>
 
         <div class="reviews-scroll-container">
             <div class="reviews-grid">
                 <!-- Initial Reviews with avatars -->
-                <div class="review-card"><div class="reviewer-profile"><img src="https://i.pravatar.cc/100?img=33" class="reviewer-avatar"><div class="reviewer-info"><h5>Kenji Tanaka</h5><div class="stars">★★★★★</div></div></div><p class="review-text">"The Tonkotsu broth video step completely changed my home ramen game!"</p></div>
-                <div class="review-card"><div class="reviewer-profile"><img src="https://i.pravatar.cc/100?img=47" class="reviewer-avatar"><div class="reviewer-info"><h5>Sophia Miller</h5><div class="stars">★★★★★</div></div></div><p class="review-text">"Sushi rice ratios are super accurate. Fantastic recipes from sellrecipeonme!"</p></div>
-                <div class="review-card"><div class="reviewer-profile"><img src="https://i.pravatar.cc/100?img=12" class="reviewer-avatar"><div class="reviewer-info"><h5>Hiroshi Sato</h5><div class="stars">★★★★★</div></div></div><p class="review-text">"Instant digital PDF delivery was immediate and cleanly structured."</p></div>
-                <div class="review-card"><div class="reviewer-profile"><img src="https://i.pravatar.cc/100?img=5" class="reviewer-avatar"><div class="reviewer-info"><h5>Olivia Brown</h5><div class="stars">★★★★★</div></div></div><p class="review-text">"Loved the crimson red website design and easy access to 15 short videos."</p></div>
-                <div class="review-card"><div class="reviewer-profile"><img src="https://i.pravatar.cc/100?img=60" class="reviewer-avatar"><div class="reviewer-info"><h5>Liam Johnson</h5><div class="stars">★★★★★</div></div></div><p class="review-text">"Chicken Katsu curry turned out as good as my local izakaya spot!"</p></div>
-                <div class="review-card"><div class="reviewer-profile"><img src="https://i.pravatar.cc/100?img=22" class="reviewer-avatar"><div class="reviewer-info"><h5>Akari Takahashi</h5><div class="stars">★★★★★</div></div></div><p class="review-text">"sellrecipeonme is my go-to platform for authentic Japanese recipes now!"</p></div>
+                <div class="review-card"><div class="reviewer-profile"><img src="https://i.pravatar.cc/100?img=33" class="reviewer-avatar"><div class="reviewer-info"><h5>Jordan Lee</h5><div class="stars">★★★★★</div></div></div><p class="review-text">"The oversized linen overshirt fits absolutely perfectly. Incredible fluid cut!"</p></div>
+                <div class="review-card"><div class="reviewer-profile"><img src="https://i.pravatar.cc/100?img=47" class="reviewer-avatar"><div class="reviewer-info"><h5>Taylor Morgan</h5><div class="stars">★★★★★</div></div></div><p class="review-text">"Love the yellow branding and inclusive sizing. Exceptional quality fabric."</p></div>
+                <div class="review-card"><div class="reviewer-profile"><img src="https://i.pravatar.cc/100?img=12" class="reviewer-avatar"><div class="reviewer-info"><h5>Alex Chen</h5><div class="stars">★★★★★</div></div></div><p class="review-text">"Fast shipping and the wrap robe dress looks stunning on everyone."</p></div>
+                <div class="review-card"><div class="reviewer-profile"><img src="https://i.pravatar.cc/100?img=5" class="reviewer-avatar"><div class="reviewer-info"><h5>Sam Rivera</h5><div class="stars">★★★★★</div></div></div><p class="review-text">"The styling videos helped me figure out how to layer it over trousers."</p></div>
+                <div class="review-card"><div class="reviewer-profile"><img src="https://i.pravatar.cc/100?img=60" class="reviewer-avatar"><div class="reviewer-info"><h5>Casey Novak</h5><div class="stars">★★★★★</div></div></div><p class="review-text">"sopbyme is redefining gender-neutral fashion. Will definitely buy again."</p></div>
 
                 <!-- Dynamically generated rest of the 150 reviews -->
                 <script>
-                    const names = ["Aoi", "Benjamin", "Charlotte", "Daisuke", "Emma", "Fumiko", "Gabriel", "Haruto", "Isabella", "Jack", "Kaori", "Lucas", "Mei", "Noah", "Ren", "Sora", "Takumi", "Yuki", "Yuto", "Zoe"];
-                    for(let i=7; i<=150; i++) {
+                    const names = ["Avery", "Blake", "Cameron", "Dakota", "Emerson", "Finley", "Harper", "Hayden", "Kendall", "Logan", "Marley", "Noah", "Parker", "Peyton", "Quinn", "Reese", "Riley", "Rowan", "Sawyer", "Skyler"];
+                    for(let i=6; i<=150; i++) {
                         let name = names[i % names.length] + " " + String.fromCharCode(65 + (i % 26)) + ".";
                         document.write(`
                             <div class="review-card">
@@ -814,7 +814,7 @@ s0.parentNode.insertBefore(s1,s0);
                                         <div class="stars">★★★★★</div>
                                     </div>
                                 </div>
-                                <p class="review-text">"Review #${i}: Outstanding Japanese recipe blueprint from sellrecipeonme. The video breakdown made cooking seamless!"</p>
+                                <p class="review-text">"Review #${i}: Outstanding unisex dress quality from sopbyme. The fit is versatile and extremely comfortable!"</p>
                             </div>
                         `);
                     }
@@ -827,11 +827,11 @@ s0.parentNode.insertBefore(s1,s0);
     <section id="about" class="section">
         <div class="about-content">
             <div class="about-text">
-                <h2>About sellrecipeonme</h2>
-                <p>At <strong>sellrecipeonme</strong>, our mission is to bring traditional Washoku and modern Japanese home cooking techniques to culinary enthusiasts worldwide.</p>
-                <p>We break down complex dashi stocks, knife work, and marinade balances into clear digital guides, complete with HD step-by-step videos and high-definition food photography.</p>
+                <h2>About sopbyme</h2>
+                <p>At <strong>sopbyme</strong>, we champion fashion without boundaries. Our collections are designed specifically for unisex wear, prioritizing fluid silhouettes, inclusive tailoring, and superior fabrics.</p>
+                <p>We believe clothing should adapt to your personal expression rather than conventional labels. Every piece is paired with practical dressing video guides to help you style your look with confidence.</p>
             </div>
-            <div class="recipe-img" style="height: 320px; border-radius: 16px; background-image: url('https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=80');"></div>
+            <div class="dress-img" style="height: 320px; border-radius: 16px; background-image: url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80');"></div>
         </div>
     </section>
 
@@ -839,38 +839,38 @@ s0.parentNode.insertBefore(s1,s0);
     <section id="privacy" class="section">
         <div class="section-header">
             <h2>Privacy Policy</h2>
-            <p>Transparency regarding how sellrecipeonme collects and protects user data.</p>
+            <p>Transparency regarding how sopbyme collects and protects user information.</p>
         </div>
         <div class="legal-block">
             <h3>1. Personal Data Collection</h3>
-            <p>When purchasing digital Japanese recipes on sellrecipeonme, we collect your name, email address (for PDF download delivery), and transaction reference information.</p>
+            <p>When you purchase apparel or interact with sopbyme, we collect your name, shipping address, email address (for order tracking), and payment verification details.</p>
 
             <h3>2. How We Use Information</h3>
-            <p>Collected details are strictly used to fulfill digital recipe card orders, deliver access to private video links, issue invoices, and inform you of new recipe drops.</p>
+            <p>Collected details are strictly used to fulfill clothing shipments, provide customer support, process secure payments, and send order updates.</p>
 
-            <h3>3. Payment & Data Protection</h3>
-            <p>sellrecipeonme does not store or process payment card details directly on our servers. All transactions are securely encrypted via third-party payment providers.</p>
+            <h3>3. Payment & Data Security</h3>
+            <p>sopbyme does not store credit card or banking details directly on our servers. All transactions are securely processed through encrypted third-party gateways.</p>
 
             <h3>4. Cookie Policy</h3>
-            <p>We use functional cookies to optimize site navigation and maintain cart preferences during your visit to sellrecipeonme.</p>
+            <p>We use functional cookies to optimize shopping bag functionality and maintain user preferences across your visit to sopbyme.</p>
         </div>
     </section>
 
     <!-- Disclaimer Section -->
     <section id="disclaimer" class="section">
         <div class="section-header">
-            <h2>Recipe & Health Disclaimer</h2>
-            <p>Essential legal and safety information for using sellrecipeonme content.</p>
+            <h2>Apparel & Legal Disclaimer</h2>
+            <p>Essential legal and care information for wearing sopbyme products.</p>
         </div>
         <div class="legal-block">
-            <h3>1. Culinary Results</h3>
-            <p>While all Japanese food recipes provided by <strong>sellrecipeonme</strong> are thoroughly tested, cooking results may vary depending on stove temperatures, knife prep, and ingredient freshness.</p>
+            <h3>1. Sizing & Fit Disclaimer</h3>
+            <p>Because sopbyme specializes in unisex and relaxed fluid cuts, garment measurements are engineered to fit multiple body types. Please consult our sizing charts before purchasing.</p>
 
-            <h3>2. Allergen & Raw Seafood Warning</h3>
-            <p>Japanese cuisine frequently includes raw fish, soy, gluten, sesame, and shellfish. Users must inspect ingredient lists for potential food allergies and ensure proper raw fish handling precautions.</p>
+            <h3>2. Fabric & Color Representation</h3>
+            <p>Actual fabric textures and clothing colors may slightly vary due to individual monitor display settings and natural organic fiber characteristics (such as linen variations).</p>
 
-            <h3>3. Digital Sales & Refund Policy</h3>
-            <p>Due to the immediate digital nature of recipe PDFs and video access provided by sellrecipeonme, all sales are final once download access is provided.</p>
+            <h3>3. Returns & Exchange Policy</h3>
+            <p>Unworn items in original condition with tags attached are eligible for return or exchange within 30 days of delivery, subject to our standard store policy guidelines.</p>
         </div>
     </section>
 
@@ -878,14 +878,14 @@ s0.parentNode.insertBefore(s1,s0);
     <footer>
         <div class="footer-container">
             <div class="footer-col">
-                <h4>sellrecipeonme</h4>
-                <p>Authentic digital Japanese recipe guides, exact measurement blueprints, and HD video masterclasses.</p>
+                <h4>sopbyme</h4>
+                <p>Contemporary unisex apparel, fluid tailoring, and high-definition dressing style guides.</p>
             </div>
             <div class="footer-col">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href="#catalog">Japanese Recipes</a></li>
-                    <li><a href="#videos">15 HD Videos</a></li>
+                    <li><a href="#catalog">Unisex Collection</a></li>
+                    <li><a href="#videos">15 Styling Videos</a></li>
                     <li><a href="#reviews">150 Reviews</a></li>
                 </ul>
             </div>
@@ -899,7 +899,7 @@ s0.parentNode.insertBefore(s1,s0);
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 sellrecipeonme. All rights reserved. Registered Digital Japanese Recipe Marketplace.</p>
+            <p>&copy; 2026 sopbyme. All rights reserved. Registered Unisex Apparel Brand.</p>
         </div>
     </footer>
 
